@@ -1,0 +1,84 @@
+@font-face{
+    src: url(../font/Baloo_2/Baloo2-Regular.ttf);
+    font-family: Baloo2-Regular;
+}
+*{
+    font-family: Baloo2-Regular;
+    color: #fff;
+}
+.activity{
+    position: relative;
+    background-color: #202F42;
+}
+
+
+.topbar{
+    background-color: #5B6374;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.appname{
+    font-weight: 800;
+}
+.img-profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.story{white-space: nowrap;
+}
+.cont-img-story{
+    background: -webkit-linear-gradient(left top, crimson 0%, #f90 100%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 2.85px;
+}
+.img-story{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.page{
+    padding: 20px;
+    padding-bottom: 90px;
+}
+.post{
+    background-color: #5B6374;
+    padding: 10px;
+    border-radius: 25px;
+}
+.post-img{
+    border-radius: 30px;
+}
+
+.tabbar{
+    overflow: hidden;
+    background-color: #5B6374;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.profile-tabbar{
+    background-image: url(../img/profil.jpeg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.cpr{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+@media only screen and (max-width: 400px) {
+    #apps{
+        display: none;
+    }
+}

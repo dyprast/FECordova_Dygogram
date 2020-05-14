@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dygogram</title>
+
+    <link rel="stylesheet" href="icon/fontawesome/css/all.min.css">
+
+    <link href="css/tailwind.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+<body onload="onLoad()">
+    <div class="activity">
+        <div class="topbar">
+            <div class="px-4 py-3 flex justify-between">
+                <img src="img/profil.jpeg" alt="profile" class="img-profile">
+                <h4 class="appname text-xl">Dygogram</h4>
+                <button onclick=""><i class="fas fa-paper-plane text-xl"></i></button>
+            </div>
+            <div class="story overflow-auto pb-5">
+                <div class="inline-block mr-3 ml-3">
+                    <div class="flex justify-center flex-col text-center your-story">
+                        <div class="cont-img-story">
+                            <img src="img/profil.jpeg" alt="profile" class="img-story">
+                        </div>
+                        <span class="text-base font-semibold">Your Story</span>
+                    </div>
+                </div>
+                <div class="inline-block mr-3">
+                    <div class="flex justify-center flex-col text-center">
+                        <div class="cont-img-story">
+                            <img src="img/profil2.jpg" alt="profile" class="img-story">
+                        </div>
+                        <span class="text-base font-semibold">google</span>
+                    </div>
+                </div>
+                <div class="inline-block mr-3">
+                    <div class="flex justify-center flex-col text-center">
+                        <div class="cont-img-story">
+                            <img src="img/profil3.png" alt="profile" class="img-story">
+                        </div>
+                        <span class="text-base font-semibold">googledevs</span>
+                    </div>
+                </div>
+                <div class="inline-block mr-3">
+                    <div class="flex justify-center flex-col text-center">
+                        <div class="cont-img-story">
+                            <img src="img/profil4.png" alt="profile" class="img-story">
+                        </div>
+                        <span class="text-base font-semibold">microsoft</span>
+                    </div>
+                </div>
+                <div class="inline-block mr-3">
+                    <div class="flex justify-center flex-col text-center">
+                        <div class="cont-img-story">
+                            <img src="img/profil5.png" alt="profile" class="img-story">
+                        </div>
+                        <span class="text-base font-semibold">gojek</span>
+                    </div>
+                </div>
+                <div class="inline-block mr-3">
+                    <div class="flex justify-center flex-col text-center">
+                        <div class="cont-img-story">
+                            <img src="img/profil6.jpg" alt="profile" class="img-story">
+                        </div>
+                        <span class="text-base font-semibold">youtube</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="post max-w-sm overflow-hidden">
+                <div class="flex items-center justify-between px-2 py-2">
+                    <div class="flex items-center">
+                        <img src="img/profil.jpeg" alt="profile" class="img-profile">
+                        <span class="font-semibold text-lg ml-2">romadhanep</span>
+                    </div>
+                </div>
+                <div class="p-1">
+                    <img class="w-full post-img" src="img/post.jpeg" alt="post-img">
+                </div>
+                <div class="px-2 pt-4">
+                    <span class="text-base"><i class="far fa-thumbs-up"></i> 1.5M</span>
+                    <span class="text-base ml-5"><i class="far fa-comment-dots"></i> 12K</span>
+                    <span class="text-base ml-5"><i class="fas fa-bullhorn"></i> 1.5K</span>
+                </div>
+                <div class="px-2 pt-2">
+                    <span class="text-base"><b>romadhanep</b> Thanks Everyone!</span>
+                </div>
+                <div class="px-2 py-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#school</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#lulus</span>
+                </div>
+            </div>
+            <div class="mt-5 post max-w-sm overflow-hidden">
+                <div class="flex items-center justify-between px-2 py-2">
+                    <div class="flex items-center">
+                        <img src="img/profil2.jpg" alt="profile" class="img-profile">
+                        <span class="font-semibold text-lg ml-2">google</span>
+                    </div>
+                </div>
+                <div class="p-1">
+                    <img class="w-full post-img" src="img/post2.jpg" alt="post-img">
+                </div>
+                <div class="px-2 pt-4">
+                    <span class="text-base"><i class="far fa-thumbs-up"></i> 1.5M</span>
+                    <span class="text-base ml-5"><i class="far fa-comment-dots"></i> 12K</span>
+                    <span class="text-base ml-5"><i class="fas fa-bullhorn"></i> 1.5K</span>
+                </div>
+                <div class="px-2 pt-2">
+                    <span class="text-base"><b>google</b> Random Post!</span>
+                </div>
+                <div class="px-2 py-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#google</span>
+                </div>
+            </div>
+        </div>
+        <div class="tabbar flex justify-between items-center">
+            <div class="flex">
+                <div class="px-6 py-5">
+                    <a href="">
+                        <i class="fas fa-home text-2xl"></i>
+                    </a>
+                </div>
+                <div class="px-6 py-5">
+                    <a href="">
+                        <i class="fas fa-search text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="px-2 py-5">
+                <a href="" class="text-center">
+                    <span class="text-base font-bold cpr">Dy <span id="apps">apps</span></span>
+                </a>
+            </div>
+            <div class="flex">
+                <div class="px-6 py-5">
+                    <a href="">
+                        <i class="far fa-heart text-2xl"></i>
+                    </a>
+                </div>
+                <div class="px-6 py-5">
+                    <a href="">
+                        <i class="fas fa-cog text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script>
+        function onLoad() {
+            document.addEventListener("backbutton", onBackKeyDown, false);
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+        function onBackKeyDown() {
+            navigator.app.exitApp();
+        }
+        function onDeviceReady() {
+            StatusBar.backgroundColorByHexString('#FF5B6374');
+        }
+    </script>
+</body>
+</html>
